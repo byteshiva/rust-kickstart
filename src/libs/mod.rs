@@ -3,6 +3,7 @@
 // modules
 mod inaccessible;
 pub mod nested;
+pub mod sample;
 
 pub fn function() {
     println!("called `my::function()`");

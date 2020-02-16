@@ -1,5 +1,5 @@
 pub fn function() {
-    println!("called `my::nested::function()`");
+    println!("called `my::nested me::function()`");
 }
 
 #[allow(dead_code)]
