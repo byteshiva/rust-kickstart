@@ -4,6 +4,8 @@
 mod inaccessible;
 pub mod nested;
 pub mod sample;
+pub mod runstructexample;
+
 
 pub fn function() {
     println!("called `my::function()`");

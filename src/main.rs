@@ -18,4 +18,6 @@ fn main() {
     libs::nested::function();
 
     libs::sample::hide();
+
+    libs::runstructexample::structsample();
 }
