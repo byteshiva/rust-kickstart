@@ -27,6 +27,8 @@ struct Rectangle {
 }
 
 pub fn structsample() {
+
+    println!("------ Struct example starts here ......");
     // Create struct with field init shorthand
     let name = "Peter";
     let age = 27;
@@ -72,4 +74,6 @@ pub fn structsample() {
     let Pair(integer, decimal) = pair;
 
     println!("pair contains {:?} and {:?}", integer, decimal);
+
+    println!("------ Struct example ends here ......");
 }

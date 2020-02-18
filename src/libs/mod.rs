@@ -5,6 +5,7 @@ mod inaccessible;
 pub mod nested;
 pub mod sample;
 pub mod runstructexample;
+pub mod runenumexample;
 
 
 pub fn function() {

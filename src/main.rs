@@ -20,4 +20,6 @@ fn main() {
     libs::sample::hide();
 
     libs::runstructexample::structsample();
+
+    libs::runenumexample::runenum();
 }
