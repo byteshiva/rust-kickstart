@@ -6,6 +6,7 @@ pub mod nested;
 pub mod sample;
 pub mod runstructexample;
 pub mod runenumexample;
+pub mod runmatchex;
 
 
 pub fn function() {

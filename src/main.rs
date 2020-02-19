@@ -22,4 +22,6 @@ fn main() {
     libs::runstructexample::structsample();
 
     libs::runenumexample::runenum();
+
+    libs::runmatchex::sample_coin_collection();
 }
