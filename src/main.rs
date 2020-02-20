@@ -24,4 +24,6 @@ fn main() {
     libs::runenumexample::runenum();
 
     libs::runmatchex::sample_coin_collection();
+
+    libs::flowcontrol::exmatch::runmatch_ex::runmatch_sample()
 }
