@@ -25,5 +25,11 @@ fn main() {
 
     libs::runmatchex::sample_coin_collection();
 
-    libs::flowcontrol::exmatch::runmatch_ex::runmatch_sample()
+    libs::flowcontrol::exmatch::runmatch_ex::runmatch_sample();
+
+    libs::flowcontrol::exmatch::ex_06_match::run_plus_one();
+
+    libs::flowcontrol::exmatch::ex_06_if_let::run_if_let_else();
+
+    
 }
