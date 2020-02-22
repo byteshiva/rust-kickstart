@@ -8,7 +8,7 @@ pub mod runstructexample;
 pub mod runenumexample;
 pub mod runmatchex;
 pub mod flowcontrol;
-
+pub mod generics;
 
 pub fn function() {
     println!("called `my::function()`");

@@ -31,5 +31,9 @@ fn main() {
 
     libs::flowcontrol::exmatch::ex_06_if_let::run_if_let_else();
 
-    
+    libs::generics::generics_ex_01::gen_ex_01();
+
+    libs::generics::non_generic_02::run_generic_02();
+
+    libs::generics::generic_03::generic_03();    
 }

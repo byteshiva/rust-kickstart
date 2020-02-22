@@ -1,5 +1,18 @@
 #![allow(unused_variables)]
 #![allow(dead_code)]
+#[derive(Debug)]
+enum UsState {
+    Alabama,
+    Alaska,
+}
+
+enum Coin {
+    Penny,
+    Nickel,
+    Dime,
+    Quarter(UsState),
+}
+
 fn some_u8_value_ex() {
     let some_u8_value = Some(0u8);
     match some_u8_value {
@@ -16,18 +29,6 @@ fn some_u8_value_if_let_ex() {
 }
 
 fn coin_check_match_ex() {
-    #[derive(Debug)]
-    enum UsState {
-        Alabama,
-        Alaska,
-    }
-
-    enum Coin {
-        Penny,
-        Nickel,
-        Dime,
-        Quarter(UsState),
-    }
     let coin = Coin::Penny;
     let mut count = 0;
     match coin {
@@ -38,18 +39,6 @@ fn coin_check_match_ex() {
 }
 
 fn coin_check_if_let_else_ex() {
-    #[derive(Debug)]
-    enum UsState {
-        Alabama,
-        Alaska,
-    }
-    
-    enum Coin {
-        Penny,
-        Nickel,
-        Dime,
-        Quarter(UsState),
-    }
     let coin = Coin::Penny;
     let mut count = 0;
     if let Coin::Quarter(state) = coin {
