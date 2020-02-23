@@ -27,9 +27,3 @@ pub fn gen_ex_01() {
 
     println!("{}, {}", x.value(), y.value());
 }
-
-
-
-
-
-

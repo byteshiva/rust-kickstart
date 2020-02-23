@@ -36,4 +36,6 @@ fn main() {
     libs::generics::non_generic_02::run_generic_02();
 
     libs::generics::generic_03::generic_03();    
+
+    libs::generics::generic_struct_01::generic_struct_01();
 }
